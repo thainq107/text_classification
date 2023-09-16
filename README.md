@@ -9,7 +9,7 @@
   ## Dataset
   [carblacac/twitter-sentiment-analysis](https://huggingface.co/datasets/carblacac/twitter-sentiment-analysis)
 
-  ## Fie-Tuning LMs
+  ## Fine-Tuning BERTs
   ### Training
   ```
     python run_fine_tuning_bert.py \
@@ -34,7 +34,7 @@
     tokenizer.batch_decode(outputs, skip_special_tokens=True)
     # ['negative']
   ```
-  ## Prompting LLMs
+  ## Fine-Tuning Large Language Models (Flan-T5) with Prompting Techniques
   Prompting Versions: Zero-Shot, One-Shot, Few-Shot (num examples = 2)
   Prompting Selection: Cosine similarity (sentence-transformers)
 
