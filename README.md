@@ -1,6 +1,6 @@
-# text_classification
+# Text Classification
 
-# Text Classification using Pre-trained Language Models: Fine-Tuning and Prompting LLMs
+# Twitter Sentiment Analysis using Pre-trained Language Models: Fine-Tuning BERTs and Prompting LLMs (Flan-T5)
 
 ## Dependencies
 - Python 3.10
