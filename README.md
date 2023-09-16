@@ -35,7 +35,8 @@
     # ['negative']
   ```
   ## Prompting LLMs
-  Use prompting versions: Zero-Shot, One-Shot, Few-Shot (num examples = 2)
+  Prompting Versions: Zero-Shot, One-Shot, Few-Shot (num examples = 2)
+  Prompting Selection: Cosine similarity (sentence-transformers)
 
   ### Training
   ```
@@ -50,8 +51,8 @@
 
   ### Predict
   Load model from huggingface repository
+  zero-shot: thainq107/flan-t5-small-twitter-sentiment-analysis-zero-shot
   ```
-    zero-shot: thainq107/flan-t5-small-twitter-sentiment-analysis-zero-shot
     from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
     model_name = "thainq107/flan-t5-small-twitter-sentiment-analysis-zero-shot"
 
